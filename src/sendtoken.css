@@ -1,15 +1,20 @@
 .outdiv {
+    font-size: x-large;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
     background-color: #2c2c34;
-    padding: 20px;
-    border-radius: 55px;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 40px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     border: 10px double #2f7dde;
-    width: 30%;
+    width: 100%;
     color: #ffffff;
-    height: max-content;
 }
 
 .send {

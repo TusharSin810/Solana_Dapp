@@ -2,6 +2,7 @@ import { useWallet } from '@solana/wallet-adapter-react'
 import bs58 from 'bs58'
 import {ed25519} from '@noble/curves/ed25519'
 import React from 'react'
+import './Sign.css'
 
 function SignMessage() {
   const {publicKey,signMessage} = useWallet();
@@ -19,9 +20,10 @@ function SignMessage() {
 };
   
     return (
-    <div>
+    <div className='signdiv'>
+        <h2 className='signh2'>Owner Verification</h2>
         <input id='message' type='text' placeholder='Message'></input>
-        <button onClick={Click}>Sign Message</button>
+        <button className='signbtn' onClick={Click}>Sign Message</button>
     </div>
   )
 }

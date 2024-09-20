@@ -23,15 +23,13 @@ function App() {
     <ConnectionProvider endpoint={"https://api.devnet.solana.com"}>
             <WalletProvider wallets={[]} autoConnect>
                 <WalletModalProvider>
+                  <div className='connect'>
+                    <WalletMultiButton />
+                    <WalletDisconnectButton />
+                  </div>
+                  <ShowBalance /> 
                   <div className='out'>
-                    <div> 
-                      <div className='connect'>
-                        <WalletMultiButton />
-                        <WalletDisconnectButton />
-                      </div> 
-                      <ShowBalance />
-                      <Airdrop />
-                    </div>
+                    <Airdrop />
                     <SendToken />
                     <SignMessage />
                   </div>  
