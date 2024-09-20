@@ -16,6 +16,7 @@ import Airdrop from './Airdrop';
 import './App.css'
 import ShowBalance from './ShowBalance';
 import SendToken from './SendToken';
+import SignMessage from './SignMessage';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
                       <Airdrop />
                     </div>
                     <SendToken />
+                    <SignMessage />
                   </div>  
                 </WalletModalProvider>
             </WalletProvider>
