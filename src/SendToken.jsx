@@ -8,8 +8,8 @@ function SendToken() {
   const {connection} = useConnection();
   
     async function sendTokens() {
-        let to = document.getElementById('to').value;
-        let amount = document.getElementById('amount').value;
+        let to = document.getElementById("to").value;
+        let amount = document.getElementById("Samount").value;
         const transaction = new Transaction();
         transaction.add(SystemProgram.transfer({
             fromPubkey: wallet.publicKey,
@@ -17,7 +17,7 @@ function SendToken() {
             lamports: amount*LAMPORTS_PER_SOL,
         }));
         await wallet.sendTransaction(transaction, connection);
-        alert("Send" + amount + "SOL to" + to);
+        alert("Send " + amount + " SOL to " + to);
     }
 
     return (
