@@ -11,4 +11,11 @@
  align-items: center;
  font-weight: bold;
  margin-top: 40px;
+ width: 50%;
+}
+
+.od{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }

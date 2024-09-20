@@ -18,7 +18,7 @@ function Airdrop() {
   return (
     <div className='text'>Request Air Drop
       <div className='inputbox'>
-          <input type='text' placeholder='Amount to Airdrop' id='amount' className='Amountinput' />
+          <label className='al'>Amount:<br/><input type='text' placeholder='Amount to Airdrop' id='amount' className='Amountinput' /></label>
           <button className='btn' onClick={sendAirdropToUser}>Send Airdrop</button>
       </div>
     </div>

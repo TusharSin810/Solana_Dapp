@@ -22,7 +22,7 @@ function SignMessage() {
     return (
     <div className='signdiv'>
         <h2 className='signh2'>Owner Verification</h2>
-        <input id='message' type='text' placeholder='Message'></input>
+        <label className='sl'>Type Message:<input id='message' type='text' placeholder='Message'></input></label>
         <button className='signbtn' onClick={Click}>Sign Message</button>
     </div>
   )

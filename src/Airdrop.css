@@ -66,3 +66,8 @@
     box-shadow: 0 5px #483f53;
     transform: translateY(4px);
 }
+.al{
+        font-size: medium;
+        font-weight: bold;
+        color: #008080;
+}

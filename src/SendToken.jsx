@@ -24,8 +24,8 @@ function SendToken() {
     <div className='outdiv'>
         <h2 className='sol'>Send Solana</h2>   
     <div className='send'>
-        <label className='info'>Send To :<input id='to' type='text' placeholder="Recipient's Address"></input></label>
-        <label className='info'>Amount :<input id='Samount' type='text' placeholder='Amount'></input></label>   
+        <label className='info'>Send To :<br/><input id='to' type='text' placeholder="Recipient's Address"></input></label>
+        <label className='info'>Amount :<br/><input id='Samount' type='text' placeholder='Amount'></input></label>   
     </div>
     <button onClick={sendTokens} className='sendbtn'>Send</button>
     </div>

@@ -17,9 +17,11 @@ function ShowBalance() {
     },[wallet])
 
     return (
-    <div className='balance'>
-      <a>Balance : <span id='Balance'></span></a>
-    </div>
+    <div className='od'>
+      <div className='balance'>
+        <a className='ba' >Balance : <span id='Balance'></span></a>
+      </div>
+    </div>  
   )
 }
 
