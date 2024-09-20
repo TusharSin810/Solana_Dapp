@@ -1,0 +1,13 @@
+.out{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.connect {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    color: #ffffff;
+}

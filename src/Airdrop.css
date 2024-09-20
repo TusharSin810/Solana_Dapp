@@ -1,0 +1,70 @@
+.text {
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #2c2c34;
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 40px;
+    border: 10px double #98ff98;
+    color: #ff79c6;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.inputbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+}
+
+.Amountinput {
+    padding: 8px;
+    background-color: #1a1a2e;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.Amountinput::placeholder{
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 15px;
+    background-color: #3f0071;
+    border-color: #3f0071;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+    max-width: 200px;
+}
+
+.btn:hover {
+    background-color: #4f0081;
+}
+
+.btn:active {
+    background-color: #660091;
+    box-shadow: 0 5px #483f53;
+    transform: translateY(4px);
+}
